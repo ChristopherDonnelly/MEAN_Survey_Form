@@ -1,0 +1,4 @@
+1. Have server render views/index.ejs which has the Survey form for the user to fill out.
+2. The user will fill out the form and submit using the Submit input button on the form.
+3. The "/process_form" route will be called by the action attribute on the form POST.
+4. The server "/result" route will grab the POST information from the request and send it to the "views/result.ejs" when it is rendered.
